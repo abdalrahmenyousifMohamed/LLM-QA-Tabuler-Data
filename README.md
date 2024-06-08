@@ -4,8 +4,9 @@ This repository contains code for two distinct tasks leveraging state-of-the-art
 
 ---
 
-## Task 1: Semantic Embedding with LLM (Which Embedding To Choose)
+## Task 1: [Semantic Embedding with LLM (Which Embedding To Choose)](https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/blob/main/Task1_Files/Choose_Embedding.ipynb)
 
+  
 **Objective:**  
 The goal of this task is to utilize semantic embedding techniques along with a Language Model to understand and represent textual data in a meaningful vector space.
 
@@ -21,13 +22,9 @@ The goal of this task is to utilize semantic embedding techniques along with a L
 https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/assets/73138953/d084c8f2-0f72-454c-a5d9-3c30d7bae1a7
 
 
-
 **Using Open Source LLM & Embedding (DEMO):**
 
 https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/assets/73138953/c64d0f18-fea9-43d6-bbfd-a92c78ee8e46
-
-
-
 
 ## Task 2: QA Tabular Data with TAPAS(Filter)
 
