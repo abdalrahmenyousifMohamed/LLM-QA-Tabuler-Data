@@ -1,8 +1,5 @@
 # _VOIS
 
-This repository contains code for two distinct tasks leveraging state-of-the-art Language Models (LLMs). Below is an explanation of each task along with the approach used and the models involved.
-
----
 
 ## Task 1: [Semantic Embedding with LLM (Which Embedding To Choose)](https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/blob/main/Task1_Files/Choose_Embedding.ipynb)
 
