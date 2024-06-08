@@ -1,0 +1,32 @@
+The TAPAS Approach
+Instead of creating a model that is constrained to a specific table structure, Google decided to follow a more holistic approach building a neural network that can be adapted to any form of a tabular dataset. To accomplish that, Google decided to based TAPAS in its famous BERT encoder architecture that set new records for natural language models a couple of years ago. TAPAS extends the BERT model in four fundamental areas:
+
+1) Additional Embeddings
+
+2) Cell Selection
+
+3) Aggregation-Operation-Prediction
+
+4) Inference
+
+Additional Embeddings
+The most notable addition to the base BERT model is the use of extra embeddings for encoding the textual input. Tapas leverages learned embeddings for the row and column indexes as well as for one special rank index that represents the order of elements in numerical columns. More specifically, TAPAS adds the following types of positional embeddings:
+
+· Position ID: Just like BERT, this embedding represents the index of the token in the flattened sequence.
+
+· Segment ID: Encodes a table header as 0 and a table cell as 1.
+
+· Column/Row ID: The index of the column or row containing the token.
+
+· Rank ID: This embedding is designed to process superlative questions from numeric values. If the cell values are numbers, this embedding sorts them and assign them a value based on their numeric rank.
+
+· Previous Answer: This embedding is designed for scenarios such as question #5 that combines multiple questions. Specifically, this embedding indicates whether a cell token was the answer to a previous question.
+
+In TAPAS, every language input is encoded as the sum of the different embeddings that represent word, position and segment as illustrated in the following figure:
+
+
+Cell Selection
+TAPAS also extends BERT with a classification layer that can select the subset of the table cells and scores the probability that those cells will be in the final answer or they can be used to compute the final answer. This step is important to optimize query processing time.
+
+Aggregation Operation Prediction
+TAPAS includes an aggregation operator as part of the output to indicate which mathematical operations such as SUM, COUNT, AVERAGE or others need to be applied to the target cells.
