@@ -26,7 +26,7 @@ https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/assets/73138953/d084c8f2-
 
 https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/assets/73138953/c64d0f18-fea9-43d6-bbfd-a92c78ee8e46
 
-## Task 2: QA Tabular Data with TAPAS(Filter)
+## Task 2: [QA Tabular Data with TAPAS(Filter)](https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/blob/main/Task2_tapas/Fine_tuning_TapasForQuestionAnswering_on_SQA.ipynb)
 
 **Objective:**  
 This task focuses on utilizing the TAPAS (Table Parsing) model, which is a specialized LLM designed for question answering on tabular data.
