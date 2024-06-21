@@ -1,5 +1,3 @@
-# mechanism
-
 
 ## Task 1: [Semantic Embedding with LLM (Which Embedding To Choose)](https://github.com/abdalrahmenyousifMohamed/VOIS_Tasks/blob/main/Task1_Files/Choose_Embedding.ipynb)
 
